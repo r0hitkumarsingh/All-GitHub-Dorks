@@ -1,0 +1,25 @@
+  Finding APIs
+
+Possible IRC login passwords
+msg nickserv identify filename:config 
+Drupal website database credentials
+path:sites databases password pivotal tracker tokens PT_TOKEN language:bash Amazon RDS possible credentials
+rds.amazonaws.com password
+possible salesforce credentials in nodejs projects
+jsforce extension:js conn.login
+Github tokens used for jekyll
+JEKYLL GITHUB_TOKEN
+Github token usually set by homebrew users HOMEBREW GITHUB_API_TOKEN language:shell
+Heroku api keys
+HEROKU_API_KEY language:shell
+possible salesforce credentials
+SF_USERNAME salesforce Shodan API keys (try other languages too) shodan_api_key language:python Slack bot and private tokens
+Heroku api keys in json files HEROKU_API_KEY language:json
+MLAB Hosted MongoDB Credentials .mlab.com password
+xoxp OR xoxb
+WinFrame-Client infos needed by users to connect toCitrix Application Servers
+Slack services URL often have secret API token as a suffix
+"https://hooks.slack.com/services/"
+Telegram API token
+[WFClient] Password= extension:ica
+"api_hash" "api_id
