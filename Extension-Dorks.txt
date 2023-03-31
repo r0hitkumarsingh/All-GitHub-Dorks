@@ -1,0 +1,14 @@
+Finding Information using Extension
+
+extension:sql mysql dump
+extension:sql mysql dump password
+extension:pem private
+extension:ppk private
+extension:json mongolab.com
+extension:json googleusercontent client_secret
+extension:json cloud.redislabs.com
+extension:json api.forecast.io
+extension:avastlic "support.avast.com"
+[WFClient] Password= extension:ica
+extension:avastlic “support.avast.com”
+extension:json googleusercontent client_secret
