@@ -1,0 +1,59 @@
+Dorks for Finding Files..
+
+filename:_netrc password
+filename:.bashrc mailchimp                      netrc that possibly holds sensitive credentials
+filename:wp-config.php                          wordpress config files 
+filename:WebServers.xml                         Created by Jetbrains IDEs, contains webserver credentials with encoded passwords (not encrypted!)
+filename:ventrilo_srv.ini                       Ventrilo configuration 
+filename:sshd_config                            OpenSSH server config
+filename:shadow path:etc                        Contains encrypted passwords and account information of new unix systems
+filename:sftp.json path:.vscode                 Created by vscode-sftp for VSCode, contains SFTP/SSH server details and credentails
+filename:sftp-config.json                       Created by SFTP for Sublime Text, contains FTP/FTPS or SFTP/SSH server details and credentials
+filename:settings.py SECRET_KEY                 Django secret keys (usually allows for session hijacking, RCE, etc) 
+filename:server.cfg rcon password               Counter Strike RCON Passwords
+filename:secrets.yml password                   Usernames/passwords, Rails applications 
+filename:robomongo.json mongodb                 credentials file used by robomongo
+filename: recentservers.xml Pass                filezilla config file with possible user/pass to ftp
+filename: proftpdpasswd                         Usernames and passwords of proftpd created by cpanel
+filename:prod.secret.exs                        Phoenix prod secret
+filename:prod.exs NOT prod.secret.exs           Phoenix prod configuration file
+filename:passwd path:etc                        Contains user account information including encrypted passwords of traditional unix systems
+filename:master.key path:config                 Rails master key (used for decrypting credentials.yml.enc for Rails 5.2+)
+filename:logins.json                            Firefox saved password collection (key3.db usually in same repo)
+filename:id_rsa or filename:id_dsa              private ssh keys 
+filename:idea14.key                             IntelliJ Idea 14 key, try variations for other versions
+filename:hub oauth_token                        hub config that stores github tokens
+filename:gitlab-recovery-codes.txt              GitLab recovery key 
+filename:github-recovery-codes.txt              GitHub recovery key 
+filename:filezilla.xml Pass                     filezilla config file with possible user/pass to ftp
+filename:express.conf path:.openshift           openshift config, only email and server thou 
+filename:discord_backup_codes.txt               Discord recovery key
+filename:dhcpd.conf                             DHCP service config
+filename:.bashrc password                       search for passwords, etc. in .bashrc (try with .bash_profile too)
+filename:.bash_history                          Bash history file
+filename:.bash_profile aws                      aws access and secret keys
+filename:.cshrc                                 RC file for csh shell
+filename:.dockercfg auth                        docker registry authentication data
+filename:.env DB USERNAME NOT homestead         laravel .env (CI, various ruby based frameworks too)
+filename:.env MAIL_HOST=smtp.gmail.com          gmail smtp configuration (try different smtp services too)
+filename:.esmtprc password                      esmtp configuration
+filename:.ftpconfig                             Created by remote-ssh for Atom, contains SFTP/SSH server details and credentials
+filename:.git-credentials                       git credentials store, add NOT username for more valid results
+filename:.history                               history file (often used by many tools)
+filename:.htpasswd                              htpasswd files
+filename:.netrc password                        netrc that possibly holds sensitive credentials
+filename:.npmrc_auth                            npm registry authentication data
+filename:.pgpass                                PostgreSQL file which can contain passwords
+filename:.remote-sync.json                      Created by remote-sync for Atom, contains FTP and/or SCP/SFTP/SSH server details and credentials
+filename:.s3cfg                                 might return false negatives with dummy values
+filename:.sh_history                            korn shell history
+filename: tugboat NOT _tugboat                  Digital Ocean tugboat config
+filename:CCCam.cfg                              CCCam Server config file 
+filename:config irc_pass                        possible IRC config
+filename:config.json auths                      docker registry authentication data
+filename:config.php dbpasswd                    PHP application database password (e.g., phpBB forum software)
+filename:configuration.php                      JConfig password Joomla configuration file
+filename:connections.xml                        possible db connections configuration, try variations to be specific
+filename:credentials aws_access_key_id          might return false negatives with dummy values 
+filename:dbeaver-data-sources.xml               DBeaver config containing MySQL Credentials
+filename:deployment-config.json                 Created by sftp-deployment for Atom, contains server details and credentials
